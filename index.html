@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>Kenny Jean</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon (4).ico">
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="0" tabindex="0">
+
+  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+   <nav class="navbar navbar-expand-lg navbar-dark menu shadow-lg" style="background-color: #acb5db;" id="navbar-spy">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-cpu home-btn"></i>
+            <!-- <img class="home-btn" src="./img/arrow-up-2826.svg" alt="logo" height="auto" width="70px" > -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav navbar-nav_margin">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#hero-section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mission-section">Misson</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#skills-section">Skills</a>
+          </li> 
+           <li class="nav-item"><a class="nav-link" href="#section-project">Projects</a>
+           </li> 
+           <!-- <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+           </li> -->
+           <li class="nav-item">
+             <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+            <li class="nav-item">        
+               <a class="nav-link" href="#inspiration-section">Resume</a>
+            </li>
+        </ul>
+     
+        </div>
+    </div>
+    </nav>
+  <!-- Hero section -->
+  <section id="hero-section">
+    <!-- Start writing your hero section here. -->
+    <div class="hero-section__main">
+       <div id="profile-img"></div>
+       <h2>Kenny Jean</h2>
+       <h4>Software Developer</h4>
+    </div>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="mission-section">
+    <!-- Start writing your Mission/Meet-me section here. -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1 col-lg-10 offset-lg-1 col-md-8 offset-md-2 ">
+          <div class="about_box">
+              <div class="row">
+              <div class="col-lg-6 col-md-12 large-100">
+                <div class="image_box">
+                  <img src="./img/coding.jpeg" alt="coding computer" class="mission-img">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 infor_box">
+                <h3>My Mission</h3>
+                <p>Hello, my name is Kenny Jean and I am a Software developer who enjoys solving tough problems and breaking them down into easily programmable solutions. My previous job was in banking where I spent the last 5 years building trust with my clients and furthering my communication skills, which I am confident I can bring to any role.</p>
+
+            <p>In my past experiences, I was always tasked with helping different clients create new passwords for their accounts. Moreover, I assisted them with getting connected to the in-store WiFi to gain access to their personal records online. With the new skills that I now have, I am able to help small businesses launch their new React single-page company website. Also, I have the ability to persuade clients to update their SEO settings so they can receive more traffic to their sites with Google.</p>
+
+            <p>I am familiar with a variety of programming technologies, including HTML, CSS, JavaScript where I created my first webpage game called Rapid Connect 4. A classic board game with a with an unexpected twist where each player has 30 seconds to make a turn or risk losing it to the opponent. Using the MERN stack or MongoDB, Express, React.Js, and Node.Js I created a full stack application that can be used to search your favorite anime shows & movies and save them to your personal profile so they can viewed later.  Never question if you've ever watched "insert anime name here" show again. I am also well verse in my skills of Python, Django, TypeScript, GIT/GitHub and I'm always adding new skills to my arsenal.</p>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills-section">
+    <!-- Start writing your skills section here. -->
+    <h3 class="section-title">Skills Section</h3>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/html.png" alt="Html icon" class="skill-img">
+            </div>
+            <h4>HTML</h4>
+            <p>&ensp;Structuring the web's content using modern semantic HTMl</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/icon-css2.png" alt="CSS icon" class="skill-img">
+            </div>
+            <h4>CSS</h4>
+            <p>&ensp;Representing beautiful web designs and interactions using modearn CSS</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/bootstrap.png" alt="Bootstrap icon" class="skill-img">
+            </div>
+            <h4>BOOTSTRAP</h4>
+            <p>&ensp;Rapidly developing responsive website using the web popular framework</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/js-image1.png" alt="JS icon" class="skill-img">
+            </div>
+            <h4>JAVASCRIPT</h4>
+            <p>&ensp;Making interactive experience games, web apps and more using Javascript</p>
+          </div>
+        </div>
+         <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/react.png" alt="React icon" class="skill-img">
+            </div>
+            <h4>REACTJS</h4>
+            <p>&ensp;Creating a single page web application that can change data, without reloading the page</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/python.png" alt="Python icon" class="skill-img">
+            </div>
+            <h4>PYTHON</h4>
+            <p>&ensp;Using to develop web application, AI, machine learning, operating systems, mobile application development, and video games</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/postgresql-logo.png" alt="PostgreSql icon" class="skill-img">
+            </div>
+            <h4>PostgreSQL</h4>
+            <p>&ensp;Performing tasks such as update data on a database, or retrieve data from a database.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skill-box">
+          <div class="skill-container">
+            <div class="skill-bg">
+              <img src="./img/nodejs-logo.png" alt="NodeJS icon" class="skill-img">
+            </div>
+            <h4>NodeJS</h4>
+            <p>&ensp;Open source, cross-platform runtime environment for developing server-side and networking applications.</p>
+          </div>
+        </div>
+        
+      </div>
+      <!-- <div class="row">
+        
+      </div> -->
+    </div>
+  </section>
+  <section id="section-project">
+    <h3 class="section-title">Projects</h3>
+    <div class="grid image-grid">
+
+      <div class="grid-block">
+      <div class="tile">
+        <a class="tile-link" href="https://k-tech19.github.io/P1-connect4/" target="_blank">
+          <img class="tile-img tile-img1" src="./img/rapid-connect-4.png" alt="Image">
+          <div class="fadedbox">  
+              <h6>Canvas</h6>
+              <h6>Javascript</h6>
+              <h6>HTML</h6>
+              <h6>CSS</h6>
+          </div>
+        </a>
+      </div>
+      <h5>Rapid Connect 4</h5>
+    </div>
+  
+    <div class="grid-block">
+      <div class="tile">
+        <a class="tile-link" href="https://k-covid-19-tracker.netlify.app/" target="_blank">
+          <img class="tile-img tile-img2" src="./img/covid-tracker.png" alt="Image">
+          <div class="fadedbox">  
+            <h6>React</h6>
+            <h6>JavaScript</h6>
+            <h6>MongoDB</h6>
+            <h6>API</h6>
+        </div>
+        </a>
+      </div>
+      <h5>COVID Tracker</h5>
+    </div>
+  
+    <div class="grid-block">
+      <div class="tile">
+        <a class="tile-link" href="https://gameoverflow-client.herokuapp.com/" target="_blank">
+          <img class="tile-img tile-img4" src="./img/gameoverflow.png" alt="Image">
+          <div class="fadedbox">  
+            <h6>MongoDB</h6>
+            <h6>Express</h6>
+            <h6>React</h6>
+            <h6>NodeJS</h6>
+        </div>
+        </a>
+      </div>
+      <h5>Game OverFlow</h5>
+    </div>
+
+    <div class="grid-block">
+      <div class="tile">
+        <a class="tile-link" href="#" target="_blank">
+          <img class="tile-img tile-img3" src="./img/sei-tic-tac-toe.png" alt="Image">
+          <div class="fadedbox">  
+            <h6>Javascript</h6>
+            <h6>Html</h6>
+            <h6>Css</h6>
+        </div>
+        </a>
+      </div>
+      <h5>Tic Tac Toe</h5>
+    </div>
+  
+    </div>
+  </section>
+  <!-- Inspiration Section -->
+  <!-- <section id="inspiration-section">
+  <h3 class="section-title">Inspiration</h3>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://eskipaper.com/images/nature-background-5.jpg" alt="...">
+      <div class="carousel-caption">
+        <h5>"Believe you can and you're halfway there."</h5>
+        <p>Theodore Roosevelt</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://wallpapercave.com/wp/wp2077614.jpg" alt="...">
+      <div class="carousel-caption">
+        <h5>“Life is not about waiting for the storms to pass. It's about learning how to dance in the rain.”</h5>
+        <p>Vivian Greene</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://3.bp.blogspot.com/-_wFRydnnl9E/WtTUN_X0RpI/AAAAAAAABLw/iJKhQKYMLBMRdJfd1nDAqdIfhgUqyF19ACEwYBhgL/s1600/1.jpg" alt="...">
+      <div class="carousel-caption ">
+        <h5>"The best view comes from the hardest climb."</h5>
+        <p>Author unknown</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </section> -->
+
+<!-- <section class="gallery-section" id="gallery">
+  <h3 class="section-title">My gallery</h3>
+  <div class="image-mosaic">
+  <a href="./img/pho5.jpeg" 
+    class="card card-tall card-wide glightbox"
+    style="background-image: url('./img/pho5.jpeg')"
+  ></a>
+  <a href="./img/da_nang.jpeg"
+    class="card card-tall glightbox"
+    style="background-image: url('./img/da_nang.jpeg')"
+  ></a>
+  <a href="./img/pho1.jpeg"
+    class="card glightbox"
+    style="background-image: url('./img/pho1.jpeg')"
+  ></a>
+  <a href="./img/pho6.jpeg"
+    class="card glightbox"
+    style="background-image: url('./img/pho6.jpeg')"
+  ></a>
+  <a href="./img/pho2.jpeg"
+    class="card glightbox"
+    style="background-image: url('./img/pho2.jpeg')"
+  ></a>
+  <a href="./img/moun.jpeg"
+    class="card glightbox"
+    style="background-image: url('./img/moun.jpeg')"
+  ></a>
+  <a href="./img/pho7.jpeg"
+    class="card card-wide glightbox"
+    style="background-image: url('./img/pho7.jpeg')"
+  ></a>
+  <a href="./img/pho4.png"
+    class="card glightbox"
+    style="background-image: url('./img/pho4.png')"
+  ></a>
+  <a href="./img/bridge.jpeg"
+    class="card glightbox"
+    style="background-image: url('./img/bridge.jpeg')"
+  ></a>
+  <a href="./img/crab.jpeg"
+    class="card glightbox"
+    style="background-image: url('./img/crab.jpeg')"
+  ></a>
+</div> -->
+
+</section>
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <div class="container-fluid">
+      <div class="row">
+           <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-4 col-sm-9 offset-sm-3 footer-infor">
+              <div class="footer-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="footer-detail">
+                <h5>561-670-5970</h5>
+                <p>Mon - Fri 9am - 4pm</p>
+              </div>
+           </div>
+           <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-4 col-sm-9 offset-sm-3 footer-infor">
+              <div class="footer-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div class="footer-detail">
+                <h5>kennyjean561@gmail.com</h5>
+                <p>Online support</p>
+              </div>
+           </div>
+           <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-4 col-sm-9 offset-sm-3 footer-infor">
+              <div class="footer-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="footer-detail">
+                <h5> West Palm Beach, USA</h5>
+                <p>FL 33463</p>
+              </div>
+           </div>
+      </div>
+      <div class="row footer-nav">
+         <div class="col-md-6 offset-md-3 footer-nav-list">
+              <div>
+                <a href="#hero-section">Home</a>
+            </div>
+            <div>
+              <a href="#mission-section">Mission</a>
+            </div>
+            <div>
+              <a href="#skills-section">Skills</a>
+            </div>
+            <div>
+              <a href="#section-project">Projects</a>
+            </div>
+            <div>
+              <a href="#inspiration-section">Inspiration</a>
+            </div>
+            <!-- <div>
+              <a href="#gallery">Gallery</a>
+            </div> -->
+        </div>
+      </div>
+      <div class="footer-connect">connect with me on social media</div>
+      <div class="row footer-nav footer-icons">
+         <div class="col-md-6 offset-md-3 footer-nav-list">
+              <!-- <div>
+                <a href="https://www.facebook.com/kenny.jean.7" target="_blank"><i class="bi bi-facebook"></i></a>
+            </div> -->
+            <div>
+              <a href="https://github.com/K-Tech19" target="_blank" ><i class="bi bi-github"></i></a>
+            </div>
+            <!-- <div>
+              <a href="https://www.instagram.com/sciphi_dadeuce/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div> -->
+            <div>
+              <a href="https://www.linkedin.com/in/kennyjean19/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div>
+              <a href="https://twitter.com/k_Tech19" target="_blank"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+      </div>
+      <div class="footer-cross"></div>
+      <div class="footer-author">
+        &copy; 2021. Made by <a href="#">Kenny Jean</a></p>
+      </div>
+    </div>
+  </section> 
+  
+
+  <!-- Footer section -->
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
